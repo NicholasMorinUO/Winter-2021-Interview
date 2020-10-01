@@ -25,8 +25,14 @@ export class Pokemon {
    * Gets the list of Pokemon info objects
    * @param names list of names
    */
-  public async getPokemonsByNameList(names: string[]): Promise<IPokemon[]> {
+  public async getPokemonsByNameList(names: String[]): Promise<IPokemon[]> {
     // TO BE IMPLEMENTED
+    // var myParser:csvParse.CsvParser = csvParse({delimiter: ','}, function(data, err) {
+    //   console.log(data);
+    // }) as csvParse.CsvParser;
+    // this.getPokemonByName();
+
+
     return null;
   }
 
